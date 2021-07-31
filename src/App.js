@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Form from './components/Form'
+import Button from './components/Button'
+import './App.css'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="container">
+      <div className="text">
+        <h1>Learn to code by watching others</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          See how experienced developers solve
+          problems in real-time. Watching 
+          scripted tutorials is great, but 
+          understanding how developers think is 
+          invaluable. 
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
+      <div className="form-content">
+        <Button />
+        <Form />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
