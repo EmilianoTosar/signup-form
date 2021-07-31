@@ -30,7 +30,7 @@ const Form = () => {
           {errors.password && <p>{errors.password}</p>}
         </div>
         <button type="submit">Claim your free trial</button>
-        <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+        <p>By clicking the button, you are agreeing to our <a href="/">Terms and Services</a></p>
       </form>
     </div>
   )
